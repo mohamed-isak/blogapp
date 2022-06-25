@@ -2,6 +2,10 @@ import { useState } from "react";
 import {useHistory} from "react-router-dom";
 
 
+
+
+
+
 const Create = () => {
   const [title, setTitle] = useState('This sathis blog');
   const [body, setBody] = useState('');
@@ -45,7 +49,7 @@ const Create = () => {
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
-        <label>Blog authors:</label>
+        <label>Blog author:</label>
         <select
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
