@@ -59,6 +59,7 @@ const Create = () => {
         </select>
         <button>Add Blog</button>   
       </form>
+      <p>This is test updates</p>
     </div>
   );
 }
